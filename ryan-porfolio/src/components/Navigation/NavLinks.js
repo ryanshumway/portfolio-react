@@ -1,19 +1,23 @@
 import React, { Children } from 'react';
 import styled from 'styled-components'
-import { spacing } from '../theme.js'
 
 const NavLinkItem = styled.text`
-
+    color: white;
+    font-size: 2rem;
+    background-color: red;
+    height: 32px;
 `
+
+
 
 function NavLink(text) {
     return (
-        <NavLink>
-            <p text={Children} />
-        </NavLink>
+        <NavLinkItem>
+            <h3>{text}</h3>
+        </NavLinkItem>
     )
 
     
 }
 
-export {NavLink}
+export { NavLink }

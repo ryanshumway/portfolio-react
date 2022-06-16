@@ -5,18 +5,21 @@ import { spacing } from '../theme.js'
 import { NavLink } from './NavLinks';
 
 const NavigationWrapper = styled.div`
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid white;
     width: 100%;
     margin: 0;
     padding: 0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    display: flex;
+    fles-direction: row;
+    z-index: 100;
 `
 
 const LogoContainer = styled.div`
-    width: 144px;
-    margin: ${spacing.MD};
-    padding-top: ${spacing.MD};
+    width: 104px;
+    margin: ${spacing.LG};
+    padding-top: ${spacing.LG};
 `
 
 function NavBar() {
@@ -26,7 +29,7 @@ function NavBar() {
                 <img src={ryanLogo} />
             </LogoContainer>
             <NavLink>
-                Link 1
+                Yo
             </NavLink>
         </NavigationWrapper>
     )
