@@ -1,8 +1,14 @@
 import React from 'react';
-import logo from 
+import ryanLogo from '../icons/'
 
 function NavBar() {
-    return <h1>Here's the nav bar!</h1>
+    return (
+        <React.Fragment>
+            <img src={ryanLogo} />
+            <h1>Here's the nav bar!</h1>
+        </React.Fragment>
+    
+    )
 }
 
 export {NavBar}
