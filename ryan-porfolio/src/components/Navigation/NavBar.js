@@ -1,12 +1,12 @@
 import React from 'react';
 import ryanLogo from '../../icons/ryanLogoGradient.svg'
 import styled from 'styled-components'
-import { spacing } from '../theme.js'
-import { NavLink } from './NavLinks';
+import { size } from '../../theme/theme'
+// import { Text } from '../Text';
 
 const NavigationWrapper = styled.div`
     border-bottom: 2px solid white;
-    background-color: black;
+    background-color: white;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -19,8 +19,19 @@ const NavigationWrapper = styled.div`
 
 const LogoContainer = styled.div`
     width: 104px;
-    margin: ${spacing.LG};
-    padding-top: ${spacing.LG};
+    margin: 12px;
+    padding-top: 8px;
+`
+
+const NavigationLinkContainer = styled.div`
+    padding-right: 12px;
+`
+
+const NavLink = styled.p`
+    font-weight: bold,
+    font-size: 4rem;
+
+
 `
 
 function NavBar() {
@@ -29,9 +40,11 @@ function NavBar() {
             <LogoContainer>
                 <img src={ryanLogo} />
             </LogoContainer>
-            {/* <NavLink>
-                Yo
-            </NavLink> */}
+            <NavigationLinkContainer>
+                <NavLink>
+                    test
+                </NavLink>
+            </NavigationLinkContainer>
         </NavigationWrapper>
     )
 }

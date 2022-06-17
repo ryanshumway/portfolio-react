@@ -1,4 +1,3 @@
-import '../css/App.css';
 import {NavBar} from './Navigation/NavBar'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Butthole
+          Learn React like a flippin' boss
         </a>
       </header>
     </div>
