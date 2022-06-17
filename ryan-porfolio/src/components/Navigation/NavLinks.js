@@ -1,7 +1,7 @@
 import React, { Children } from 'react';
 import styled from 'styled-components'
 
-const NavLinkItem = styled.text`
+const NavLinkItem = styled.p`
     color: white;
     font-size: 2rem;
     background-color: red;
@@ -13,11 +13,9 @@ const NavLinkItem = styled.text`
 function NavLink(text) {
     return (
         <NavLinkItem>
-            <h3>{text}</h3>
+            {text}
         </NavLinkItem>
     )
-
-    
 }
 
 export { NavLink }

@@ -6,6 +6,7 @@ import { NavLink } from './NavLinks';
 
 const NavigationWrapper = styled.div`
     border-bottom: 2px solid white;
+    background-color: black;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -28,9 +29,9 @@ function NavBar() {
             <LogoContainer>
                 <img src={ryanLogo} />
             </LogoContainer>
-            <NavLink>
+            {/* <NavLink>
                 Yo
-            </NavLink>
+            </NavLink> */}
         </NavigationWrapper>
     )
 }
