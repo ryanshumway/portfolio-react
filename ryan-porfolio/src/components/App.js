@@ -1,20 +1,19 @@
 import {NavBar} from './Navigation/NavBar'
+import styled from 'styled-components';
+
+const StyledBody = styled.body`
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <NavBar />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React like a flippin' boss
-        </a>
-      </header>
-    </div>
+    <StyledBody>
+      <NavBar />
+      
+    </StyledBody>
   );
 }
 
