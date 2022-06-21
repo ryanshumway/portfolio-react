@@ -24,18 +24,21 @@ export const darkTheme = {
     purple700: '#20003D',
 }
 
-export const gradient = css`
-    linear-gradient(
-        90deg, hsla(4, 79%, 63%, 1) 0%, hsla(233, 89%, 60%, 1) 100%
-    )
-`
+export const gradient = {
+    gradient: 'linear-gradient(90deg, hsla(4, 79%, 63%, 1) 0%, hsla(233, 89%, 60%, 1) 100%)',
+}
 
-export const size = css`
-    SM: 4px;
-    MD: 8px;
-    LG: 12px;
-    XL: 16px;
-    XXL: 20px;
-    XXXL: 24px;
-    circle: 50%;
+export const size = {
+    SM: '4px',
+    MD: '8px',
+    LG: '12px',
+    XL: '16px',
+    XXL: '20px',
+    XXXL: '24px',
+    circle: '50%',
+}
+    
+
+export const transitionMain = css`
+    transition: all ease-in-out 0.2s;
 `

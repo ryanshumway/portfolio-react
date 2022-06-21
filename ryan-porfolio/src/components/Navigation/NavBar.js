@@ -1,7 +1,8 @@
 import React from 'react';
-import ryanLogo from '../../icons/ryanLogoGradient.svg'
 import styled from 'styled-components'
-import { darkTheme, size } from '../../theme/theme'
+import { darkTheme, size, transitionMain } from '../../theme/theme'
+import ryanLogo from '../../icons/ryanLogoGradient.svg'
+
 // import { Text } from '../Text';
 
 const NavigationWrapper = styled.div`
@@ -36,13 +37,12 @@ const NavLink = styled.p`
     font-size: 1.15rem;
     color: ${darkTheme.focus};
     padding: 12px;
-    background-color: ${darkTheme.secondary};
-    border-radius: ${size.LG}
+    border-radius: ${size.LG};
 
     &:hover {
         text-decoration: underline;
         color: ${darkTheme.red100};
-        background-color: ${darkTheme.secondary};
+        ${transitionMain.transition};
     }
 
     &:active {
