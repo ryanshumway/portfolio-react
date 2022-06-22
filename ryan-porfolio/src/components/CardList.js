@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function CardList() {
+function CardList(props) {
     const cardWatch = ['The Blacklist - Netflix', 'Obi Wan Kenobi - Disney+', 'Stranger Things Season 4 - Netflix'];
     const cardLearn = ['Podcasts on Spotify', 'The Lincoln Highway - Libby App', 'The Old Testament & Book of Mormon', 'Front End Development', 'HTML, CSS, React, & React Native'];
     const cardExercise = ['Riding on stationary Peloton Bike', 'Occasional Hike'];
@@ -13,7 +13,7 @@ function CardList() {
     )
     return (
         <ul>
-            
+            {props.generateLI}
         </ul>
     )
 }

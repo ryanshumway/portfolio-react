@@ -1,6 +1,8 @@
 import {NavBar} from './Navigation/NavBar'
 import styled from 'styled-components';
 import { Card } from './Card';
+import { About } from './About';
+import '../assets/main.css'
 
 const StyledBody = styled.body`
   margin: 0;
@@ -19,6 +21,7 @@ function App() {
   return (
     <StyledBody>
       <NavBar />
+      <About />
       <Card title={"👁 watching"}>
         list={'Yo!'}
       </Card>

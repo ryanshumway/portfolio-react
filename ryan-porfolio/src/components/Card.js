@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import { darkTheme, size } from '../theme/theme'
-import { CardList } from '../CardList';
+import { CardList } from '../components/CardList';
 
 const CardWrapper = styled.div`
     background-color: ${darkTheme.secondary};
