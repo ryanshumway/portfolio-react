@@ -22,6 +22,14 @@ export const darkTheme = {
     purple500: '#4A008F',
     purple600: '#350066',
     purple700: '#20003D',
+    
+    purpleGray100: '#EBE6EF',
+    purpleGray200: '#D8CEE0',
+    purpleGray300: '#C6BCCF',
+    purpleGray400: '#B8ABC4',
+    purpleGray500: '#A494B3',
+    purpleGray600: '#8D8199',
+    purpleGray700: '#70647D',
 }
 
 export const gradient = {

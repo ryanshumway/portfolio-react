@@ -6,7 +6,7 @@ import ryanLogo from '../../icons/ryanLogoGradient.svg'
 // import { Text } from '../Text';
 
 const NavigationWrapper = styled.div`
-    border-bottom: 4px solid ${darkTheme.focus};
+    border-bottom: 2px solid ${darkTheme.focus};
     background-color: ${darkTheme.primary};
     width: 100%;
     justify-content: space-between;

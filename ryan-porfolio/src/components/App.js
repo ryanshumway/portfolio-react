@@ -1,8 +1,8 @@
-import {NavBar} from './Navigation/NavBar'
+import { NavBar } from './Navigation/NavBar'
 import styled from 'styled-components';
-import { Card } from './Card';
 import { About } from './About';
 import '../assets/main.css'
+import '../assets/tailwind.css'
 
 const StyledBody = styled.body`
   margin: 0;
@@ -22,10 +22,6 @@ function App() {
     <StyledBody>
       <NavBar />
       <About />
-      <Card title={"👁 watching"}>
-        list={'Yo!'}
-      </Card>
-      <p>what's up</p>
     </StyledBody>
   );
 }
